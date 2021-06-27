@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>robot</title>
+<link rel="stylesheet" href="c.css">
+
+</head>
+<body>
+<div class="one">
+<h4 style="background-color: white">robotics control panel</h4></div>
+  
+   <form action="c.php" method="POST">  
+   
+    <div class="slide1">
+    <span>engine_1</span>
+    <input type="range" name = "engine_1" min="0" max="180" value="90" id="slider1" >
+    <div id="filed1">
+    <div class="filed1"></div>
+    <div id="value_right1"></div>
+     </div>
+<div id="sliderValue1"></div>
+</div>
+
+<br>
+<br>
+<div class="slide1">
+    <span>engine_2</span>
+    <input type="range" name = "engine_2"  min="0" max="180" value="90" id="slider2"  >
+    <div id="filed2">
+    <div class="filed2"></div>
+    <div id="value_right2"></div>
+    </div>
+    <div id="sliderValue2"></div>
+    </div>
+    <br>
+    <div class="slide1">
+        <span>engine_3</span>
+        <input type="range" name ="engine_3" min="0" max="180" value="90" id="slider3"  >
+        <div id="filed3">
+        <div class="filed3"></div>
+        <div id="value_right3"></div>
+        </div>
+        <div id="sliderValue3"></div>
+        </div>
+    <br>
+    <div class="slide1">
+        <span>engine_4</span>
+        <input type="range" name ="engine_4" min="0" max="180" value="90" id="slider4"  >
+        <div id="filed4">
+        <div class="filed4"></div>
+        <div id="value_right4"></div>
+        </div>
+        <div id="sliderValue4"></div>
+        </div>
+
+    <br>
+    <div class="slide1">
+        <span>engine_5</span>
+        <input type="range" name ="engine_5" min="0" max="180" value="90" id="slider5"  >
+        <div id="filed5">
+        <div class="filed5"></div>
+        <div id="value_right5"></div>
+        </div>
+        <div id="sliderValue5"></div>
+        </div>
+    <br>
+    <div class="slide1">
+       <span>engine_6</span>
+       <input type="range" name ="engine_6" min="0" max="180" value="90" id="slider6" >
+       <div id="filed6">
+            
+       <div class="filed6"></div>
+       <div id="value_right6"></div>
+       </div>
+       <div id="sliderValue6"></div>
+       </div>
+	    <div class="item">
+       <button type="button" value ="submit" name="save" class="btn" onclick="alert('saved')">save </button>  
+           </div>
+		   </form>
+		   
+		 <form action="c.php" method="POST" id="form2">
+         <div class="item">
+         <button class="btn-outline" name="run" > run </button> 
+         </div>
+		   </form>
+		<br>
+       </body>
+	   <script src="c.js"></script>
+
+	   </html>
